@@ -1,6 +1,4 @@
 {
   "appTitle": "vuetify-vite",
-  "footer": "GitHub",
-  "footerHref": "https://github.com/ief015/vuetify-vite",
-  "footerInfo": "Vite ‒ Vue 3 ‒ Vuetify 3 ‒ Vue Router ‒ TypeScript"
+  "theme": "dark"
 }

@@ -1,5 +1,5 @@
 <template>
-  <v-app theme="dark">
+  <v-app :theme="config.theme">
     <AppNav />
     <v-main>
       <router-view />
@@ -9,6 +9,7 @@
 </template>
 
 <script setup lang="ts">
+import config from '@/config.json';
 import AppFooter from '@/components/AppFooter.vue';
 import AppNav from '@/components/AppNav.vue';
 </script>
