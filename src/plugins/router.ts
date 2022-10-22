@@ -13,7 +13,6 @@ const router = createRouter({
 router.afterEach((to, from) => {
   nextTick(async () => {
     const title = (await to.meta.title) ?? to.name ?? to.path;
-    console.log(to.matched);
     document.title = `${title} | ${config.appTitle}`;
   });
 });

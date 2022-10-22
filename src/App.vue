@@ -1,15 +1,15 @@
 <template>
   <v-app :theme="config.theme">
-    <AppNav />
+    <app-nav />
     <v-main>
       <router-view />
     </v-main>
-    <AppFooter />
+    <app-footer />
   </v-app>
 </template>
 
 <script setup lang="ts">
-import config from '@/config.json';
 import AppFooter from '@/components/AppFooter.vue';
 import AppNav from '@/components/AppNav.vue';
+import config from '@/config.json';
 </script>
