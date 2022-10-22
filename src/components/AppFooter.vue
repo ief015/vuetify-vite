@@ -8,7 +8,7 @@
       </v-col>
       <v-divider vertical inset />
       <v-col cols="auto" class="font-weight-bold">
-        Vite ‒ Vue 3 ‒ Vuetify 3 ‒ Vue Router ‒ TypeScript
+        Vite ‒ Vue 3 ‒ Vuetify 3 ‒ Vue Router ‒ TypeScript ‒ Pinia
       </v-col>
     </v-row>
   </v-sheet>
