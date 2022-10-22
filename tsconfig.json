@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [ "./src/*" ]
+    },
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "typeRoots": [
+      "./src/index"
+    ],
+    "allowJs": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "outDir": "build"
+  }
+}
