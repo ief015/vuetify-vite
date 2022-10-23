@@ -12,5 +12,4 @@ const routes: RouteRecordRaw[] = [
   { path: '/:pathMatch(.*)*', component: () => import('@/views/404.vue') },
 ];
 
-
 export default routes;

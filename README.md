@@ -1,2 +1,16 @@
 # vuetify-vite
- Vite - Vue 3 - Vuetify 3 - Vue Router - TypeScript - Pinia
+
+Run development server with HMR:
+```
+npm run dev
+````
+
+Build for production:
+```
+npm run build
+```
+
+Run preview server of production build:
+```
+npm run serve
+````
