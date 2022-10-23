@@ -1,4 +1,13 @@
 {
   "appTitle": "vuetify-vite",
-  "theme": "dark"
+  "theme": "dark",
+  "footer": {
+    "text": "Vite ‒ Vue 3 ‒ Vuetify 3 ‒ Vue Router ‒ TypeScript ‒ Pinia",
+    "links": [
+      {
+        "text": "GitHub",
+        "href": "https://github.com/ief015/vuetify-vite"
+      }
+    ]
+  }
 }
